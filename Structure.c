@@ -30,13 +30,12 @@ void main()
 	    scanf("%d",&emp[i].phone);
 	    printf("Enter Employee's Salary:");
 	    scanf("%d",&emp[i].salary);
-      }
-      //display(n);
-      printf("Name\tAge\tPhoneNo.\tSalary\n");
+	  }
+          printf("Name\tAge\tPhoneNo.\tSalary\n");
 	  for(i=0;i<n;i++)
 	  {
 	    printf("%s\t%d\t%d\t\t%d\n",emp[i].name,emp[i].age,emp[i].phone,emp[i].salary);
-      }
-    }
+          }
+        }
 }
 
